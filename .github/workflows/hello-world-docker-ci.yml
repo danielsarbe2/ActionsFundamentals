@@ -14,8 +14,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run my own container action
-        id: hello-action
-        uses: ./hello-world-docker-action
+        id: action
+        uses: ./my-actions
         with:
           who-to-greet: '@danielsarbe2'
 
