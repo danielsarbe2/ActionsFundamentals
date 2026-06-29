@@ -15,4 +15,5 @@ jobs:
     steps:
       - run: | 
             echo "Hello All!"
-            
+      - name: Checkout
+        uses: actions/checkout@v3.3.0           
